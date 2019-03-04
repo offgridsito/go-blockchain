@@ -131,12 +131,12 @@ func respondWithJSON(w http.ResponseWriter, r *http.Request, code int, payload i
 }
 
 // make sure block is valid by checking index, and comparing the hash of the previous block
-func isBlockValid(newBlock, oldBlock Block) bool {
-	if oldBlock.Index+1 != newBlock.Index {
+func isBlockValid(newBlock, prevBlock Block) bool {
+	if prevBlock.Index+1 != newBlock.Index {
 		return false
 	}
 
-	if oldBlock.Hash != newBlock.PrevHash {
+	if prevBlock.Hash != newBlock.PrevHash {
 		return false
 	}
 
@@ -157,16 +157,16 @@ func calculateHash(block Block) string {
 }
 
 // create a new block using previous block's hash
-func generateBlock(oldBlock Block, TweetHash string) Block {
+func generateBlock(prevBlock Block, TweetHash string) Block {
 
 	var newBlock Block
 
 	t := time.Now()
 
-	newBlock.Index = oldBlock.Index + 1
+	newBlock.Index = prevBlock.Index + 1
 	newBlock.Timestamp = t.String()
 	newBlock.TweetHash = TweetHash
-	newBlock.PrevHash = oldBlock.Hash
+	newBlock.PrevHash = prevBlock.Hash
 	newBlock.Hash = calculateHash(newBlock)
 
 	return newBlock

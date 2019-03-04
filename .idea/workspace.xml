@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48d2d0ed-bc3f-4724-b81c-16f5035fb9c1" name="Default Changelist" comment="" />
+    <list default="true" id="48d2d0ed-bc3f-4724-b81c-16f5035fb9c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/twitter-blockchain/blockchain/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-blockchain/blockchain/main.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,20 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitter-blockchain/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1109">
+            <state relative-caret-position="-1237">
               <caret line="15" column="30" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/twitter-blockchain/blockchain/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="151" column="75" selection-start-line="151" selection-start-column="66" selection-end-line="151" selection-end-column="75" />
+            <state relative-caret-position="490">
+              <caret line="168" column="33" selection-start-line="168" selection-start-column="33" selection-end-line="168" selection-end-column="33" />
               <folding>
                 <element signature="e#15#210#0" expanded="true" />
               </folding>
@@ -114,8 +116,8 @@
         <option value="$PROJECT_DIR$/p2p/model/model.go" />
         <option value="$PROJECT_DIR$/p2p/main.go" />
         <option value="$PROJECT_DIR$/twitter-blockchain/main.go" />
-        <option value="$PROJECT_DIR$/twitter-blockchain/blockchain/main.go" />
         <option value="$PROJECT_DIR$/twitter-blockchain/.env" />
+        <option value="$PROJECT_DIR$/twitter-blockchain/blockchain/main.go" />
       </list>
     </option>
   </component>
@@ -208,6 +210,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="670" y="23" width="925" height="822" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.26979473" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -222,7 +225,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49706745" visible="true" weight="0.44246575" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49706745" weight="0.44246575" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50293255" side_tool="true" weight="0.37671232" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -292,20 +295,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter-blockchain/blockchain/main.go">
+    <entry file="file://$PROJECT_DIR$/twitter-blockchain/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="151" column="75" selection-start-line="151" selection-start-column="66" selection-end-line="151" selection-end-column="75" />
-          <folding>
-            <element signature="e#15#210#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1237">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter-blockchain/main.go">
+    <entry file="file://$PROJECT_DIR$/twitter-blockchain/blockchain/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1109">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="490">
+          <caret line="168" column="33" selection-start-line="168" selection-start-column="33" selection-end-line="168" selection-end-column="33" />
+          <folding>
+            <element signature="e#15#210#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
