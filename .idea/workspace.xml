@@ -22,10 +22,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p2p/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4020">
+            <state relative-caret-position="2433">
               <caret line="296" selection-start-line="68" selection-end-line="68" selection-end-column="9" />
             </state>
           </provider>
@@ -34,8 +34,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitter-blockchain/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="-554">
               <caret line="15" column="30" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/twitter-blockchain/blockchain/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -107,10 +116,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="716" />
-    <option name="y" value="23" />
-    <option name="width" value="724" />
-    <option name="height" value="822" />
+    <option name="x" value="1740" />
+    <option name="y" value="126" />
+    <option name="width" value="1228" />
+    <option name="height" value="950" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -118,7 +127,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="go-blockchain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-blockchain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-blockchain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-blockchain" type="462c0819:PsiDirectoryNode" />
+              <item name="twitter-blockchain" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -175,7 +199,7 @@
   <component name="ToolWindowManager">
     <frame x="716" y="23" width="724" height="822" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26979473" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26979473" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -188,7 +212,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49706745" visible="true" weight="0.37671232" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49706745" weight="0.37671232" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50293255" side_tool="true" weight="0.37671232" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -234,7 +258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter-blockchain/blockchain/main.go" />
     <entry file="file://$PROJECT_DIR$/networking/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1725">
@@ -242,13 +265,6 @@
           <folding>
             <element signature="e#14#199#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitter-blockchain/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -261,8 +277,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/p2p/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4020">
+        <state relative-caret-position="2433">
           <caret line="296" selection-start-line="68" selection-end-line="68" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter-blockchain/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-554">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter-blockchain/blockchain/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
