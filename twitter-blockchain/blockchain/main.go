@@ -1,20 +1,20 @@
 package main
 
 import (
-"crypto/sha256"
-"encoding/hex"
-"encoding/json"
-"io"
-"log"
-"net/http"
-"os"
-"strconv"
-"sync"
-"time"
+	"crypto/sha256"
+	"encoding/hex"
+	"encoding/json"
+	"io"
+	"log"
+	"net/http"
+	"os"
+	"strconv"
+	"sync"
+	"time"
 
-"github.com/davecgh/go-spew/spew"
-"github.com/gorilla/mux"
-"github.com/joho/godotenv"
+	"github.com/davecgh/go-spew/spew"
+	"github.com/gorilla/mux"
+	"github.com/joho/godotenv"
 )
 
 // Block represents each 'item' in the blockchain
